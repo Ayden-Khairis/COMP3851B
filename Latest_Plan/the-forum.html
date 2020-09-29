@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>UoN - Sporting</title>
+  <title>UoN - The Forum</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -61,7 +61,7 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Sporting</h1>
+    <h1 class="mt-4 mb-3">The Forum</h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
@@ -70,74 +70,84 @@
       <li class="breadcrumb-item">
         <a href="social.html">Social</a>
       </li>
-      <li class="breadcrumb-item active">Sporting</li>
+      <li class="breadcrumb-item">
+        <a href="sporting.html">Sporting</a>
+      </li>
+      </li>
+      <li class="breadcrumb-item active">The Forum</li>
     </ol>
 
     <div class="row">
 
-      <!-- Entries Column -->
-      <div class="col-md-8">
+      <!-- Post Content Column -->
+      <div class="col-lg-8">
 
-        <!-- Entry -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+        <!-- Preview Image -->
+        <img class="img-fluid rounded" src="images/the-forum.jpg" alt="">
+  
+        <hr>
+
+        <!-- Post Content -->
+        <p><b>Location:</b> 130 University Dr, Callaghan NSW 2308</br>
+          <b>opening hours:</b> 5:30am to 9pm, Monday - Friday   </br>  
+        7am to 3pm, Saturday - Sunday</p>
+        <p>Our gym at the Forum on Newcastle campus is state of the art. This fully equipped gym offers a cardio zone, cycle zone, strength training zone,
+           group fitness, personal training, plus a range of group sports including badminton, volleyball and basketball with several indoor courts. 
+           This facility also offers the second highest climbing wall in Australia, as well as child minding and a café.
+        
+          At Central Coast campus we have the Ourimbah Gym Clinic. Here you can access high quality exercise equipment, complete a health screen and fitness testing 
+          or take advantage of health and fitness programming - all for free. Training sessions are available combining intervals of cardio and muscle conditioning.
+        </p>
+        <p>We have an eight lane 50 metre indoor heated pool at the Forum on our Newcastle campus. This facility provides casual swimming and a range of aquatic fitness programs. For more information see. <a href="https://www.theforum.org.au/">The Forum</a>.</p>
+        <hr>
+
+        <!-- Comments Form -->
+        <div class="card my-4">
+          <h5 class="card-header">Leave a Comment:</h5>
           <div class="card-body">
-            <h2 class="card-title">Gym</h2>
-            <p class="card-text">Our gym at the Forum on Newcastle campus is state of the art. This fully equipped gym offers a cardio zone, cycle zone, strength training zone, group fitness, personal training, plus a range of group sports including badminton, volleyball and basketball with several indoor courts.</p>
-            <a href="the-forum.html" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Updated on January 1, 2017
+            <form>
+              <div class="form-group">
+                <textarea class="form-control" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
         </div>
 
-        <!-- Entry -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Ovals and Fields</h2>
-            <p class="card-text">We have six sporting ovals at Newcastle campus. They provide a great open space to catch up with friends, hold study groups and most can be booked for larger gatherings and events.</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Updated on January 1, 2017
+        <!-- Single Comment -->
+        <div class="media mb-4">
+          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+          <div class="media-body">
+            <h5 class="mt-0">Commenter Name</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
           </div>
         </div>
 
-        <!-- Entry -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Aquatic Centre</h2>
-            <p class="card-text">We have an eight lane 50 metre indoor heated pool at the Forum on our Newcastle campus. This facility provides casual swimming and a range of aquatic fitness programs.</p>
-            <a href="the-forum.html" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Updated on January 1, 2017
-          </div>
-        </div>
-        <!-- Entry -->
-        <div class="card mb-4">
-          <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
-          <div class="card-body">
-            <h2 class="card-title">Squash Courts</h2>
-            <p class="card-text">Four squash courts are available in the Squash Pavilion at Newcastle Callaghan campus.</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
-          </div>
-          <div class="card-footer text-muted">
-            Updated on January 1, 2017
-          </div>
-        </div>
+        <!-- Comment with nested comments -->
+        <div class="media mb-4">
+          <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+          <div class="media-body">
+            <h5 class="mt-0">Commenter Name</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
 
-        <!-- Pagination -->
-        <ul class="pagination justify-content-center mb-4">
-          <li class="page-item">
-            <a class="page-link" href="#">&larr; Older</a>
-          </li>
-          <li class="page-item disabled">
-            <a class="page-link" href="#">Newer &rarr;</a>
-          </li>
-        </ul>
+            <div class="media mt-4">
+              <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+              <div class="media-body">
+                <h5 class="mt-0">Commenter Name</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </div>
+
+            <div class="media mt-4">
+              <img class="d-flex mr-3 rounded-circle" src="http://placehold.it/50x50" alt="">
+              <div class="media-body">
+                <h5 class="mt-0">Commenter Name</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </div>
+
+          </div>
+        </div>
 
       </div>
 
@@ -150,7 +160,7 @@
           <div class="card-body">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search for...">
-              <span class="input-group-append">
+              <span class="inpug-group-append">
                 <button class="btn btn-secondary" type="button">Go!</button>
               </span>
             </div>
