@@ -75,9 +75,9 @@
                 <div class="row">
                     <div class="col-lg-9" style="padding: 2em 2em">
                         <h2 class="card-title"><a style="text-decoration:none" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">UoN Libraries</a></h2>
-                        <h5><p class="card-text">Learn about the University of Newcastle library services.</p></h5>
+                        <h5>Learn about the University of Newcastle library services.</h5>
                         <br /><br />
-                        <a style="text-decoration:none" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1" class="btn btn-primary">View</a>
+                        <a style="text-decoration:none" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1" class="btn btn-primary" onclick="unview(this)">More ◢</a>
                     </div>
                     <div class="col-lg-3">
                         <a href="#">
@@ -87,7 +87,7 @@
                 </div>
             </div>
 
-            <div id="collapse1" class="collapse hide" role="tabpanel" aria-labelledby="heading1">
+            <div id="collapse1" class="collapse hide" role="tabpanel">
                 <div class="card-body">
                     <p>
                         The University of Newcastle provides library services at six campuses and a number of affiliate locations.
@@ -107,9 +107,9 @@
                 <div class="row">
                     <div class="col-lg-9" style="padding: 2em 2em">
                         <h2 class="card-title"><a style="text-decoration:none" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">UoN Student Central</a></h2>
-                        <h5><p class="card-text">Learn about the University of Newcastle Student Central.</p></h5>
+                        <h5>Learn about the University of Newcastle Student Central.</h5>
                         <br /><br />
-                        <a style="text-decoration:none" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2" class="btn btn-primary">View</a>
+                        <a style="text-decoration:none" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2" class="btn btn-primary" onclick="unview(this)">More ◢</a>
                     </div>
                     <div class="col-lg-3">
                         <a href="#">
@@ -119,7 +119,7 @@
                 </div>
             </div>
 
-            <div id="collapse2" class="collapse hide" role="tabpanel" aria-labelledby="heading2">
+            <div id="collapse2" class="collapse hide" role="tabpanel">
                 <div class="card-body">
                     <p>
                         Student Central is your first point of contact for anything student related. Staff can offer help and advice about most facilities, services and procedures.
@@ -128,13 +128,11 @@
                     </p>
 
                     <h5>Contact</h5>
-                    <p>
                         <ul>
                             <li><b>Phone (Callaghan):</b> (02) 4921 5000 </li>
                             <li><b>Phone (Ourimbah):</b> (02) 4348 4030 </li>
                             <li><b>Email:</b> AskUON@newcastle.edu.au </li>
                         </ul>
-                    </p>
 
                     <h5>
                         Student Central can help you with:
@@ -165,8 +163,6 @@
                             </ul>
                         </div>
                     </div>
-
-                        </p>
                     </div>
                 </div>
         </div>
@@ -175,9 +171,9 @@
                 <div class="row">
                     <div class="col-lg-9" style="padding: 2em 2em">
                         <h2 class="card-title"><a style="text-decoration:none" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">UoN Global</a></h2>
-                        <h5><p class="card-text">Learn about the University of Newcastle UoN Global for international students.</p></h5>
+                        <h5>Learn about the University of Newcastle UoN Global for international students.</h5>
                         <br /><br />
-                        <a style="text-decoration:none" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3" class="btn btn-primary">View</a>
+                        <a style="text-decoration:none" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3" class="btn btn-primary" onclick="unview(this)">More ◢</a>
                     </div>
                     <div class="col-lg-3">
                         <a href="#">
@@ -187,19 +183,29 @@
                 </div>
             </div>
 
-            <div id="collapse3" class="collapse hide" role="tabpanel" aria-labelledby="heading3">
+            <div id="collapse3" class="collapse hide" role="tabpanel">
                 <div class="card-body">
                     <p>
                         For international students, UON Global are the team dedicated to ensuring you make the most of your time not only at the University, but in Australia.
 
                         UON Global will get you settled in, organise opportunities to meet new people, and assist you to understand forms and official documents – whether they’re concerning your studies or your visa.
 
-                        We want to help make your experience at the University one of the best and most memorable times of your life
+                        We want to help make your experience at the University one of the best and most memorable times of your life.
                     </p>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        function unview(bt) {
+          if (bt.innerHTML == "More ◢") {
+            bt.innerHTML = "Less ◥";
+          }
+          else {
+            bt.innerHTML = "More ◢";
+          }
+        }
+    </script>
 
 </div>
   <!-- /.container -->

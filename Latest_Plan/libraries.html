@@ -93,12 +93,12 @@
                           </a>
                       </div>
                       <div class="col-lg-6 titleDiv">
-                          <h2 class="titleCenter"><a style="cursor:pointer; text-decoration: none" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">Auchmucty Library</a></h2><h4>Shortland, Callaghan</h4>
+                          <h2 class="titleCenter"><a style="cursor:pointer; text-decoration: none" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1" onclick="unview(this)">Auchmucty Library<span>◢</span></a></h2><h4>Shortland, Callaghan</h4>
                       </div>
                   </div>
               </div>
 
-              <div id="collapse1" class="collapse hide" role="tabpanel" aria-labelledby="heading1">
+              <div id="collapse1" class="collapse hide" role="tabpanel">
                   <div class="card-body">
                       <p>The Auchmuty Library is located on the Western side of the campus near the Shortland Union Building. The Library service zone, Learning Lounge and the Law collection are located on the main level (level 3). The Information Common (AIC), Course Readings collection, Cafe and Cultural Collections are located on level 2.
 
@@ -134,12 +134,12 @@
                           </a>
                       </div>
                       <div class="col-lg-6 titleDiv">
-                          <h2 class="titleCenter"><a style="cursor:pointer; text-decoration: none" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">Huxley Library</a></h2><h4>Hunter, Callaghan</h4>
+                          <h2 class="titleCenter"><a style="cursor:pointer; text-decoration: none" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2" onclick="unview(this)">Huxley Library<span>◢</span></a></h2><h4>Hunter, Callaghan</h4>
                       </div>
                   </div>
               </div>
 
-              <div id="collapse2" class="collapse hide" role="tabpanel" aria-labelledby="heading2">
+              <div id="collapse2" class="collapse hide" role="tabpanel">
                   <div class="card-body">
                       <p>
                           The Huxley Library is located on Levels A and C of the Hunter Building on the Callaghan Campus. It specialises in supporting the areas of Education, Nursing, Medical Radiation Science, Fine Art and Photography.
@@ -166,12 +166,12 @@
                           </a>
                       </div>
                       <div class="col-lg-6 titleDiv">
-                          <h2 class="titleCenter"><a style="cursor:pointer; text-decoration: none" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">Newcastle City campus Library</a></h2><h4>NUspace, Newcastle</h4>
+                          <h2 class="titleCenter"><a style="cursor:pointer; text-decoration: none" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3" onclick="unview(this)">Newcastle City campus Library<span id="d">◢</span></a></h2><h4>NUspace, Newcastle</h4>
                       </div>
                   </div>
               </div>
 
-              <div id="collapse3" class="collapse hide" role="tabpanel" aria-labelledby="heading3">
+              <div id="collapse3" class="collapse hide" role="tabpanel">
                   <div class="card-body">
                       <p>
                           The Newcastle City campus Library in UON's NUspace building houses a dynamic collection of high demand and core items to support the needs of staff and students located at the Newcastle City campus.
@@ -188,6 +188,18 @@
               </div>
           </div>
       </div>
+
+    <script>
+        function unview(bt) {
+            var c = bt.childNodes;
+            if (c[1].innerHTML == "◢") {
+                c[1].innerHTML = "◥";
+            }
+            else {
+                c[1].innerHTML = "◢";
+            }
+        }
+    </script>
 
 
 
