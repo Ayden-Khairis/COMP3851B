@@ -3,8 +3,14 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   padding-top: 56px;
+  margin-bottom: 100px; /*based on footer height*/
 }
 
 .carousel-item {
@@ -19,4 +25,16 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+footer {
+  position: absolute;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}
+
+#faq-p {
+  padding-left: 1%; 
+  padding-top: 0.5%;
 }
