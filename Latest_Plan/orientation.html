@@ -16,6 +16,31 @@
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
 
+  <style>
+    .liNav {  
+      background-color: #d8eff5;
+      color:black;
+      display:inline-block;
+      padding:0.5em 2.5em;
+      border-radius: 25px;
+      font-style: bold;
+      text-decoration:none;
+    }
+    .liNav a:link {
+      text-decoration: none!important;
+    }
+    .liNav a:hover {
+      font-size:110%;
+    }
+    .liActive a:hover {
+      font-size:100%;
+    }
+    .liActive {
+      background-color:#cff4fe;
+      font-size:110%;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -75,14 +100,23 @@
         <img class="img-fluid rounded mb-4" src="images/uonlogo.png" alt="">
       </div>
       <div class="col-lg-8">
-        <h2>Why You Should Come</h2>
+        <div style="font-style:italic; border-radius: 10px; padding: 2em 1em;text-decoration: underline;text-decoration-color: lightcyan;">
+          <h2>Why you should come!</h2>
+        </div>
         <p>The first week of Uni can be challenging as you might not know anyone in your degree, don't know where your classes are, and may have no idea what the first weeks at Uni might look like. Students who attend Orientation are better informed and more likely to succeed in their first semester compared to those who don't attend. </p>
         <p>Orientation (or O-Week for short) occurs the week before your first week of the semester and is a wonderful way for you to find out about the Uni lifestyle. Orientation goes for the entire week (hence the 'week' in O-Week) but has a special dedicated day for you and people doing the same degree as you.</p>
         <p>You will have an oppotunity to meet your classmates and staff members during specific sessions catered for your program. There are academic workshops if you'd like to learn some academic skills before your first class and many social oppotunities to neet new people as there is free food, entertainment, and displays all around for your enjoyment. </p>
       </div>
     </div>
     <!-- /.row -->
-
+    <nav>
+      <ul>
+        <li class="liNav liActive"><a href="orientation.html">Orientation</a></li>
+        <li class="liNav"><a href="gettingStarted.html">Getting Started</a></li>
+        <li class="liNav"><a href="orientation - Copy.html">Other</a></li>
+        <li class="liNav"><a href="orientation - Copy.html">Conclusion</a></li>
+      </ul> 
+    </nav>
     <!-- Team Members -->
     <h2>Our Team</h2>
 
@@ -128,7 +162,6 @@
       </div>
     </div>
     <!-- /.row -->
-
 
   </div>
   <!-- /.container -->
