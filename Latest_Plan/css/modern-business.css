@@ -58,3 +58,38 @@ footer {
   width: 100%;
   height: 200px;
 }
+
+.center {
+margin: 0;
+position: relative;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+.liNav {  
+background-color: #d8eff5;
+color:black;
+display:inline-block;
+padding:0.5em 2.5em;
+border-radius: 25px;
+font-style: bold;
+text-decoration:none;
+}
+
+.liNav a:link {
+text-decoration: none!important;
+}
+
+.liNav a:hover {
+font-size:110%;
+}
+
+.liActive a:hover {
+font-size:100%;
+}
+
+.liActive {
+background-color:#cff4fe;
+font-size:110%;
+}
