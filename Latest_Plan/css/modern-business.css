@@ -93,3 +93,20 @@ font-size:100%;
 background-color:#cff4fe;
 font-size:110%;
 }
+
+.photo {
+  max-width:  15em;
+  max-height: 15em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#getting-started-header {
+  font-style:italic; 
+  border-radius: 10px; 
+  padding: 2em 1em;
+  text-decoration: underline;
+  text-decoration-color: lightcyan;
+}
