@@ -118,3 +118,8 @@ font-size:110%;
   text-decoration: underline;
   text-decoration-color: lightcyan;
 }
+
+.imageContainer > img:hover{
+  width: 1040px;
+  height: 774px;
+}
