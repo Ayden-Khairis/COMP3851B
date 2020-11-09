@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>UoN - Orientation</title>
+  <title>Orientation Web App</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -56,489 +56,88 @@
       </div>
     </div>
   </nav>
-
-  <header>
-    <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url(./images/orientation.jpg);" onclick="showInfo(1)">
-            <div class="carousel-caption d-none d-md-block">
-                <div style="text-shadow: 1px 1px #000000">
-                  <span style="font-size:15pt;margin-left:1.5em"><span id="top-n1">0</span>/<span id="top-t1">3</span> Completed</span>
-                  <img id="top-status1" style="float:right" height="30" width="30" src="images/warning.png" alt="status img"/>
-                  <p><em style="font-size: 0.6em; color: yellow;">Click on the image for more information.</em></p>
-              </div>
-            </div>
-        </div>
-
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(./images/WK1.jpg);" onclick="showInfo(2)">
-            <div class="carousel-caption d-none d-md-block">
-              <div style="text-shadow: 1px 1px #000000;padding-left:2em">
-                <span style="font-size:15pt;margin-left:1.5em"><span id="top-n2">0</span>/<span id="top-t2">3</span> Completed</span>
-                <img id="top-status2" style="float:right" height="30" width="30" src="images/warning.png" alt="status img"/>
-                <p><em style="font-size: 0.6em; color: yellow;">Click on the image for more information.</em></p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(./images/WK2.jpg);">
-          <div class="carousel-caption d-none d-md-block">
-            <em style="font-size: 0.6em; color: yellow;">Click on the image for more information. </em>
-          </div>
-        </div>
-        
-        <!-- Slide Four - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(./images/WK4.jpg);">
-          <div class="carousel-caption d-none d-md-block"> 
-            <em style="font-size: 0.6em; color: yellow;">Click on the image for more information. </em>
-          </div>
-        </div>
-        
-        <!-- Slide Five - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(./images/WK6.jpg);">
-          <div class="carousel-caption d-none d-md-block">
-            <em style="font-size: 0.6em; color: yellow;">Click on the image for more information. </em>
-          </div>
-        </div>
-        
-        <!-- Slide Six - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(./images/Break.jpg);">
-          <div class="carousel-caption d-none d-md-block">
-            <em style="font-size: 0.6em; color: yellow;">Click on the image for more information. </em>
-          </div>
-        </div>
-        
-        <!-- Slide Seven - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(./images/WK9.jpg);">
-          <div class="carousel-caption d-none d-md-block">
-            <em style="font-size: 0.6em; color: yellow;">Click on the image for more information. </em>
-          </div>
-        </div>
-        
-        <!-- Slide Eight - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(./images/WK11.jpg);">
-          <div class="carousel-caption d-none d-md-block">
-            <em style="font-size: 0.6em; color: yellow;">Click on the image for more information. </em>
-          </div>
-        </div>
-        
-        <!-- Slide Nine - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(./images/WK13.jpg);">
-          <div class="carousel-caption d-none d-md-block">
-            <em style="font-size: 0.6em; color: yellow;">Click on the image for more information. </em>
-          </div>
-        </div>
-        
-        <!-- Slide Ten - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(./images/Exams.jpg);">
-          <div class="carousel-caption d-none d-md-block">
-            <em style="font-size: 0.6em; color: yellow;">Click on the image for more information. </em>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </header>
-
-  <!--Collapsing Section-->
-  <div id="accordion" role="tablist" aria-multiselectable="true">
-    <a id="collapsor" data-toggle="collapse" data-parent="#accordion" href="#collapseMain1" aria-expanded="true" aria-controls="collapseMain1"></a>
-    <div style="padding-top: 1em;" id="collapseMain1" class="collapse hide" role="tabpanel">
-      <img id="closeMain" width="25" height="25" style="float:right;margin-right:2em;opacity:50%" src="images/close.png" alt="close section" onclick="hideInfo()"/> 
-      <div class="container">
-        <div id="wk1" style="display: none; margin:1em">
-          <!--Week 1 Top-->
-          <div class="row">
-            <div class="col-lg-10">
-              <h1>Orientation</h1>
-            </div>
-            <div class="col-lg-2">
-              <span style="font-size:25pt"><span id="n1">0</span>/<span id="t1">3</span></span>
-              <img id="status1" style="float:right;" height="50" width="50" src="images/warning.png" alt="status img"/>
-            </div>
-            <progress style="width:100%;padding:1em; margin-bottom: 1em" id="bar1" value="0" max="100"> 32% </progress>
-          </div> 
-          <!--Orientation Cards -->
-          <div class="row" style="padding:0em 2em">
-
-            <div class="col-lg-4 mb-4">
-              <div class="card h-100">
-                <div style="padding:2em;">
-                  <h4 style="display:inline">Student ID</h4>
-                  <input style="float:right;height:2em;width:2em" type="checkbox" onclick="bar(1,this)">
-                </div>
-                <hr>
-                <div style="float:right" class="card-body">
-                  <p class="card-text">Be prepared and have your Student ID with you before Week 1. </p>
-                </div>
-                <div>
-                  <div style="padding:1em;">
-                    <a style="text-decoration: none;" data-toggle="collapse" data-parent="#accordion" href="#collapseInfo11" aria-expanded="true" aria-controls="collapseInfo11">More infomation</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 mb-4">
-              <div class="card h-100">
-                <div style="padding:2em;">
-                  <h4 style="display:inline">Classrooms</h4>
-                  <input style="float:right;height:2em;width:2em" type="checkbox" onclick="bar(1,this)">
-                </div>
-                <hr>
-                <div style="float:right" class="card-body">
-                  <p class="card-text">Locate your classrooms so you're not panicked on your first day. </p>
-                </div>
-                <div>
-                  <div style="padding:1em">
-                    <a style="text-decoration:none" data-toggle="collapse" data-parent="#accordion" href="#collapseInfo12" aria-expanded="true" aria-controls="collapseInfo12">More infomation</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 mb-4">
-              <div class="card h-100">
-                <div style="padding:2em;">
-                  <h4 style="display:inline">Take a Tour!</h4>
-                  <input style="float:right;height:2em;width:2em" type="checkbox" onclick="bar(1,this)">
-                </div>
-                <hr>
-                <div style="float:right" class="card-body">
-                  <p class="card-text">Take a tour of the University on Orientation Day. If you're not interested in a tour, find: a place where you can eat, where one of the libraries are located, and a place to study. Once you've done these things, be sure to check this box.</p>
-                </div>
-                <div>
-                  <div style="padding:1em">
-                    <a style="color: grey" class="disabled">More infomation</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!--Orientation More Information-->
-          <div style="padding:2em;margin:1em;border-radius: 25px;background-color:lightcyan;color:navy;" id="collapseInfo11" class="collapse hide" role="tabpanel">
-            <img width="20" height="20" style="float:right;opacity:50%" src="images/close.png" alt="close section" onclick="closeInfo(1,1)"/>
-            <a id="close11" style="display:none;" href="#collapseInfo11" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="collapseInfo11"></a>
-            <img style="float:left;margin-right:1em" width="40" height="40" src="images/information.png"  alt="information icon"/>
-                <h3>Don't know how to get a Student ID?</h3>
-                <p>
-                  View the Orientation or FAQ tab to see how to organise and receive your Student ID card. 
-                </p>
-          </div>
-
-          <div style="padding:2em;margin:1em;border-radius: 25px;background-color:lightcyan;color:navy;" id="collapseInfo12" class="collapse hide" role="tabpanel">
-            <img width="20" height="20" style="float:right;opacity:50%" src="images/close.png" alt="close section" onclick="closeInfo(1,2)"/>
-            <a id="close12" style="display:none;" href="#collapseInfo12" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="collapseInfo12"></a>
-            <img style="float:left;margin-right:1em" width="40" height="40" src="images/information.png" alt="information icon"/>
-                <h3>Classrooms</h3>
-                <p>
-                  View the Orientation tab to find out what your room names mean and how to read them. 
-                </p>
-          </div>
-
-          <div style="padding:2em;margin:1em;border-radius: 25px;background-color:lightcyan;color:navy;" id="collapseInfo13" class="collapse hide" role="tabpanel">
-            <img width="20" height="20" style="float:right;opacity:50%" src="images/close.png" alt="close section" onclick="closeInfo(1,3)"/>
-            <a id="close13" style="display:none;" href="#collapseInfo13" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="collapseInfo13"></a>
-            <img style="float:left;margin-right:1em" width="40" height="40" src="images/information.png" alt="information icon"/>
-                <h3>Card Title</h3>
-                <p>
-                  The University of Newcastle provides library services at six campuses and a number of affiliate locations.
-          
-                  There are 24 hour study spaces available at Auchmuty Library, Ourimbah Library and NUspace.
-          
-                  Our aim is to provide our students with welcoming places where students can come to meet, read, study and learn.
-                </p>
-          </div>
-        </div>
-
-      <div id="wk2" style="display: none; margin:1em">
-        <!--Week 2 Top-->
-        <div class="row">
-          <div class="col-lg-10">
-            <h1>Week 1</h1>
-          </div>
-          <div class="col-lg-2">
-            <span style="font-size:25pt"><span id="n2">0</span>/<span id="t2">3</span></span>
-            <img id="status2" style="float:right;" height="50" width="50" src="images/warning.png" alt="status img"/>
-          </div>
-          <progress style="width:100%;padding:1em; margin-bottom: 1em" id="bar2" value="0" max="100"> 32% </progress>
-        </div> 
-
-        <!--Week 1 Cards -->
-        <div class="row" style="padding:0em 2em">
-          <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-              <div style="padding:2em;">
-                <h4 style="display:inline">Lecture Material</h4>
-                <input style="float:right;height:2em;width:2em" type="checkbox" onclick="bar(2,this)">
-              </div>
-              <hr>
-              <div style="float:right" class="card-body">
-                <p class="card-text">This week you will be taking your first classes. Be sure to have something to take down notes with. These notes can be used later when studying for exams. </p>
-              </div>
-              <div>
-                <div style="padding:1em;">
-                  <a style="text-decoration: none;" data-toggle="collapse" data-parent="#accordion" href="#collapseInfo21" aria-expanded="true" aria-controls="collapseInfo21">More Information</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-              <div style="padding:2em;">
-                <h4 style="display:inline">Plan Your Trip</h4>
-                <input style="float:right;height:2em;width:2em" type="checkbox" onclick="bar(2,this)">
-              </div>
-              <hr>
-              <div style="float:right" class="card-body">
-                <p class="card-text">Know how you're going to get to Uni. There are a variety of ways you can get to Uni including public transport, driving, riding, and walking!</p>
-              </div>
-              <div>
-                <div style="padding:1em">
-                  <a style="text-decoration:none" data-toggle="collapse" data-parent="#accordion" href="#collapseInfo22" aria-expanded="true" aria-controls="collapseInfo22">More infomation</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-              <div style="padding:2em;">
-                <h4 style="display:inline">Have Fun!</h4>
-                <input style="float:right;height:2em;width:2em" type="checkbox" onclick="bar(2,this)">
-              </div>
-              <hr>
-              <div style="float:right" class="card-body">
-                <p class="card-text">This is your first week of your University degree! Remember to enjoy it!</p>
-              </div>
-              <div>
-                <div style="padding:1em">
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--Week 1 More Information-->
-        <div style="padding:2em;margin:1em;border-radius: 25px;background-color:lightcyan;color:navy;" id="collapseInfo21" class="collapse hide" role="tabpanel">
-          <img width="20" height="20" style="float:right;opacity:50%" src="images/close.png" alt="close section" onclick="closeInfo(2,1)"/>
-          <a id="close21" style="display:none;" href="#collapseInfo21" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="collapseInfo21"></a>
-          <img style="float:left;margin-right:1em" width="40" height="40" src="images/information.png" alt="information icon"/>
-              <h3>Week 1 Tip!</h3>
-              <p>
-                Try not to take too many notes. Lecture slide material can always be reviewed and you should focus more on the key points a lecturer makes during the lecture. If you take too many notes you may fall behind the slides or miss key points. 
-              </p>
-        </div>
-
-        <div style="padding:2em;margin:1em;border-radius: 25px;background-color:lightcyan;color:navy;" id="collapseInfo22" class="collapse hide" role="tabpanel">
-          <img width="20" height="20" style="float:right;opacity:50%" src="images/close.png" alt="close section" onclick="closeInfo(2,2)"/>
-          <a id="close22" style="display:none;" href="#collapseInfo22" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="collapseInfo22"></a>
-          <img style="float:left;margin-right:1em" width="40" height="40" src="images/information.png" alt="information icon"/>
-              <h3>Transport Tip!</h3>
-              <p>
-                If you're driving make sure you know where the free parking is unless you want to pay for parking and if you're taking public transport, make sure you visit the <a href="https://transportnsw.info/trip#/trip">Plan Your Trip</a> website so you know where you're headed. 
-              </p>
-        </div>
-
-        <div style="padding:2em;margin:1em;border-radius: 25px;background-color:lightcyan;color:navy;" id="collapseInfo23" class="collapse hide" role="tabpanel">
-          <img width="20" height="20" style="float:right;opacity:50%" src="images/close.png" alt="close section" onclick="closeInfo(2,3)"/>
-          <a id="close23" style="display:none;" href="#collapseInfo23" data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="collapseInfo23"></a>
-          <img style="float:left;margin-right:1em" width="40" height="40" src="images/information.png" alt="information icon"/>
-              <h3>Card Title</h3>
-              <p>
-                The University of Newcastle provides library services at six campuses and a number of affiliate locations.
-        
-                There are 24 hour study spaces available at Auchmuty Library, Ourimbah Library and NUspace.
-        
-                Our aim is to provide our students with welcoming places where students can come to meet, read, study and learn.
-              </p>
-        </div>
-      </div>
-
-      </div>
-      <hr>
-    </div>
-  </div>
-
   <!-- Page Content -->
   <div class="container">
 
-    <h1 class="my-4">Welcome to The University of Newcastle</h1>
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Orientation</h1>
 
-    <!-- Resources Section -->
-    <h2>Helpful Resources</h2>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item active">Orientation</li>
+    </ol>
 
+    <!-- Intro Content -->
     <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <a href="blackboard.html"><img class="card-img-top" id="index-social" src="images/blackboard0.png" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              Blackboard
-            </h4>
-            <p class="card-text">
-              Blackboard is the website you'll find yourself using the most during your time at University. Blackboard is a hub which contains content for all of your courses.
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="blackboard.html" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
+      <div class="col-lg-4">
+        <img class="img-fluid rounded mb-4" src="images/uonlogo.png" alt="">
       </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" id="index-social" src="images/myhub.png" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              myHub
-            </h4>
-            <p class="card-text">myHub is hub where you will enrol in your courses, update your personal details, pay fees and view your financial records, academic transcript and much more</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
+      <div class="col-lg-8">
+        <div style="font-style:italic; border-radius: 10px; padding: 2em 1em;text-decoration: underline;text-decoration-color: lightcyan;">
+          <h2>Why you should come!</h2>
         </div>
+        <p>The first week of Uni can be challenging as you might not know anyone in your degree, don't know where your classes are, and may have no idea what the first weeks at Uni might look like. Students who attend Orientation are better informed and more likely to succeed in their first semester compared to those who don't attend. </p>
+        <p>Orientation (or O-Week for short) occurs the week before your first week of the semester and is a wonderful way for you to find out about the Uni lifestyle. Orientation goes for the entire week (hence the 'week' in O-Week) but has a special dedicated day for you and people doing the same degree as you.</p>
+        <p>You will have an oppotunity to meet your classmates and staff members during specific sessions catered for your program. There are academic workshops if you'd like to learn some academic skills before your first class and many social oppotunities to neet new people as there is free food, entertainment, and displays all around for your enjoyment. </p>
       </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" id="index-social" src="images/librarycat.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              Library Catalogue
-            </h4>
-            <p class="card-text">
-              The Library Catalogue contains a database with every book, e-book, journal entry, and article the library has access to.
-              Some courses will require you to use material or excerpts from this database to help your learning or be used as references for your assignments.
-              You can also use this database to find any of these resources you might need to help you during your study.
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Social Section -->
-    <h2>Social</h2>
-
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <a href="sport-recreation.html"><img class="card-img-top" id="index-social" src="images/field.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              Sport and Recreation
-            </h4>
-            <p class="card-text">
-              The University offers a wide variety of sporting and fitness facilities, teams and clubs.
-              The campus has multiple fields and ovals as well as squash courts, a gym and aquatics center to name just a few of the facilities available.
-            </p>
-          </div>
-          <div class="card-footer">
-            <a href="sporting.html" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <a href="food-beverage.html"><img class="card-img-top" id="index-social" src="images/aroma-cafe.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              Food and Beverage
-            </h4>
-            <p class="card-text">The University is home to a wide variety of food and snack options, from Subway to Noodles we will have something to satisfy you.</p>
-          </div>
-          <div class="card-footer">
-            <a href="food-beverage.html" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <a href="bars-entertainment.html"><img class="card-img-top" id="index-social" src="images/bar-on-the-hill.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              Bars and Entertainment
-            </h4>
-            <p class="card-text">Here at the University we offer a few different options for places to catch up with friends or enjoy a cold drink after a long day studying.</p>
-          </div>
-          <div class="card-footer">
-            <a href="bars-entertainment.html" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div> 
-
-    <!-- Page Content -->
-  <div class="container">
-
-    <h2>University Services</h2>
-
-    <div class="row">
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="img-fluid rounded photo" src="images/library.png" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="Services.html">UoN Libraries</a>
-            </h4>
-            <p class="card-text">The University of Newcastle provides library services at six campuses and a number of affiliate locations. There are 24 hour study spaces available at Auchmuty Library, Ourimbah Library and NUspace</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="img-fluid rounded photo" src="images/studentCentral.png" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="Services.html">UoN Student Central</a>
-            </h4>
-            <p class="card-text">Student Central is your first point of contact for anything student related. Staff can offer help and advice about most facilities, services and procedures. Student Advisors are also on hand at all locations for any questions and advice about your degree.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="img-fluid rounded photo" src="images/uonGlobal.png" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="Services.html">UoN Global</a>
-            </h4>
-            <p class="card-text">For international students, UON Global are the team dedicated to ensuring you make the most of your time not only at the University, but in Australia. UON Global will get you settled in, organise opportunities to meet new people, and assist you to understand forms and official documents – whether they’re concerning your studies or your visa. We want to help make your experience at the University one of the best and most memorable times of your life.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <hr>
     </div>
   </div>
-  <!-- /.container -->
+    <!-- /.row -->
+    <div class="container">
+      <hr>
+      <nav class="text-center">
+        <ul>
+          <li class="liNav liActive"><a href="orientation.html">Orientation</a></li>
+          <li class="liNav"><a href="gettingStarted.html">Getting Started</a></li>
+          <li class="liNav"><a href="settlingIn.html">Settling In</a></li>
+        </ul>
+        <ul>
+          <li class="liNav"><a href="generalQuestions.html">General Questions</a></li>
+          <li class="liNav"><a href="social-essentials.html">Social Essentials</a></li>
+          <li class="liNav"><a href="other.html">Assistance</a></li>
+        </ul> 
+      </nav>
+      <hr>
+    </div>
+
+    <!-- Videos -->
+    <div class="container">
+        <div class="col-lg-12">
+          <div class="card h-100 bg-info">
+            <div class="card-header" style="font-style:italic; border-radius: 10px; padding: 2em 1em;text-decoration: underline;">
+              Hear from Our Students
+            </div>
+            <div class="card-body text-center">
+              <div class="row">
+                <div class="col-lg-12">
+              Every student will have different experiences from University, including students who aren't familiar with their environment. If you would like to see the perspective and experience of a domestic student, click the left video. If you would like to see the perspective and experiences of an international student, click the right video. Alternatively, if you're interested in both perspectives, watch both the videos.
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <!--div class="row"-->
+              <div class="col-lg-6 mb-4">
+          <!--div class="card h-100 text-center"-->
+                <div class="card-header bg-success">Domestic Student</div>
+                <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//Wqyu5KDIJWU' frameborder='0' allowfullscreen></iframe></div>
+              </div>
+        <!--/div-->
+              <div class="col-lg-6 mb-4">
+                <!--div class="card h-100 text-center"-->
+                <div class="card-header bg-success">International Student</div>
+                 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//SEagsqHyJ6Q' frameborder='0' allowfullscreen></iframe></div>
+              </div>
+              <!--/div-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <br>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
@@ -551,55 +150,6 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script>
-    var collapsed = true;
-    var currentShowing = 0;
-      function closeInfo(i,j) {
-        document.getElementById("close"+i+j).click();
-      }
-      function hideInfo(i) {
-        if (!collapsed) {
-          collapsed = true;
-          document.getElementById("collapsor").click();
-        }
-        document.getElementById("wk"+currentShowing).style.display = "none";
-      }
-      function showInfo(i) {
-        if (collapsed) {
-          collapsed = false;
-          document.getElementById("collapsor").click();
-          document.getElementById("wk"+i).style.display = "block";
-          currentShowing = i;
-        }
-        else {
-          if (currentShowing != i) {
-            document.getElementById("wk"+currentShowing).style.display = "none";
-            setTimeout(function(){document.getElementById("wk"+i).style.display = "block";
-            currentShowing = i;},100);
-          }
-        }
-      }
-      function bar(i,cb) {
-        var val = parseFloat(1 / parseFloat(document.getElementById("t"+i).innerHTML)) * 100;
-        var int = parseFloat(document.getElementById("n"+i).innerHTML);
-          if (cb.checked) {
-            document.getElementById("bar"+i).value += val;
-            document.getElementById("n"+i).innerHTML = int + 1;
-            document.getElementById("top-n"+i).innerHTML = int + 1;
-            if (document.getElementById("bar"+i).value >= 99) {
-              document.getElementById("status"+i).src = "images/tick.png";
-              document.getElementById("top-status"+i).src = "images/tick.png";
-            }
-          }
-          else {
-            document.getElementById("bar"+i).value -= val;
-            document.getElementById("n"+i).innerHTML = int - 1;
-            document.getElementById("top-n"+i).innerHTML = int - 1;
-            document.getElementById("status"+i).src = "images/warning.png";
-            document.getElementById("top-status"+i).src = "images/warning.png";
-          }
-      }
-  </script>
 
 </body>
 
