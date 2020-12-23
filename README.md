@@ -13,9 +13,10 @@ Who is who in our Discipline, School and Faculty (a directory).
 Induction for “Before uni starts TO-DO list” to “What you need to know by week 1”.
 What a typical semester will look like and feel like.
 FAQs and testimonials.
+
 Other important aspects:
 
-Must use a mix of text and multimedia (diagrams, graphs, photos, video content and animations).
-Must look professional and be easy to use.
-Must target domestic and international students.
-Must be flexible. What if the Program Convenor for Information Technology changes? How can that information be updated in your system? What if I want to add new testimonials?
+* Must use a mix of text and multimedia (diagrams, graphs, photos, video content and animations).
+* Must look professional and be easy to use.
+* Must target domestic and international students.
+* Must be flexible. What if the Program Convenor for Information Technology changes? How can that information be updated in your system? What if I want to add new testimonials?
